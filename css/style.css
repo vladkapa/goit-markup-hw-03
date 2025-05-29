@@ -253,6 +253,7 @@ ul {
   padding: 120px 0px;
 }
 .team-wrapper {
+  padding: 32px 0;
 }
 
 .team-title {
@@ -304,7 +305,7 @@ ul {
 /* ======OUR PORTFOLIO======= */
 
 .portfolio {
-  padding: 96px 0;
+  padding: 120px 120px;
 }
 
 .portfolio-title {
@@ -344,6 +345,7 @@ ul {
   flex-direction: column;
   gap: 8px;
   border: 1px solid var(--accent-color);
+  border-top: 0;
   padding: 32px 16px;
   width: 360px;
   height: 120px;
@@ -387,6 +389,8 @@ ul {
 }
 
 .footer-logo span {
+  display: inline-block;
+  margin-bottom: 16px;
   color: var(--light-mode-backgrounds);
 }
 
