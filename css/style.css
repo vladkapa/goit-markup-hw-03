@@ -382,15 +382,14 @@ ul {
   line-height: 1.17;
   margin-right: 76px;
   margin-top: 15px;
-  margin-bottom: 15px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
   color: var(--primary-brand);
 }
 
 .footer-logo span {
-  display: inline-block;
-  margin-bottom: 16px;
   color: var(--light-mode-backgrounds);
 }
 
