@@ -52,7 +52,7 @@ button {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
@@ -260,7 +260,8 @@ ul {
 }
 
 .team-wrapper {
-  padding: 32px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .team-title {
@@ -281,6 +282,7 @@ ul {
   padding-left: 0;
 }
 .team-item {
+  width: calc((100% - 72px) / 4);
   line-height: 1.2;
   letter-spacing: 0.02em;
   border-radius: 0 0 4px 4px;
